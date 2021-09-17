@@ -1,6 +1,10 @@
 # miniRubyCompiler
 Compiler and interpreter that is able to compile and interpret a limited set of ruby instructions
 
+## Requirements:
+
+This program requires flex, bison and c++ version 17+.
+
 ## Building:
 
 **make all:** automatically generates lex and bison files and compiles the c program. Produces the executable: *compiler*
